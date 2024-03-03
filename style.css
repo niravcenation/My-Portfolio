@@ -26,7 +26,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content: end;
         align-items: center;
         width: 80%;
         height: 98vh;
@@ -373,6 +372,9 @@
         .name {
             font-size: 4.5rem;
         }
+        .hero .container {
+            justify-content: center;
+        }
         .hero .container>* {
             flex-basis: 70px;
         }
@@ -463,6 +465,9 @@
     @media (min-width:320px) and (max-width:480px) {
         .name {
             font-size: 4rem;
+        }
+        .hero .container {
+            justify-content: center;
         }
         .hero .container>* {
             flex-basis: 100px;
